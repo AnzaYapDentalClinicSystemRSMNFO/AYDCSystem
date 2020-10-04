@@ -1,0 +1,30 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "db_dentalclinic_thesis",
+    "host": "localhost",
+    "dialect": "mariadb",
+    "operatorsAliases": false,
+    "dialectOptions": {
+      "useUTC": false
+    },
+    "timezone": "+08:00"
+  },
+  "test": {
+    "username": "bb94ed1a56c180",
+    "password": "5dc8065f",
+    "database": "heroku_ca8508699f3bdb0",
+    "host": "us-cdbr-east-02.cleardb.com",
+    "dialect": "mariadb",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "bb94ed1a56c180",
+    "password": "5dc8065f",
+    "database": "heroku_ca8508699f3bdb0",
+    "host": "us-cdbr-east-02.cleardb.com",
+    "dialect": "mariadb",
+    "operatorsAliases": false
+  }
+}
